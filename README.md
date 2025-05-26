@@ -1,6 +1,5 @@
 - 👋 Hi, I’m @Vengeance8547
-- 👀 I’m interested in cyber field  
-- 🌱 I’m currently learning nothing(just getting started)
+- 👀 Cyber Security Student
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
