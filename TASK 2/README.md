@@ -1,6 +1,7 @@
 -- TASk 2 --
 
 Objective: Identify phishing characteristics in a suspicious email sample.
+
 Requirements : A spam mail sample. 
 
 Summary:
