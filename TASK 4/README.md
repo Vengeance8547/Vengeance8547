@@ -41,7 +41,7 @@ Summary:
     - "sudo ufw disable"
 
 
-key Things:
+key Things:    
 1. Setting up UFW firewall in linux.
 2. Enabling, adding rulees, viewing and deleting rules. 
 3. Disabling the firewall. 
