@@ -1,10 +1,10 @@
--- TASk 2 --
+**-- TASK 2 --**
 
-Objective: Identify phishing characteristics in a suspicious email sample.
+**Objective:** Identify phishing characteristics in a suspicious email sample.
 
-Requirements : A spam mail sample. 
+**Requirements:** A spam mail sample. 
 
-Summary:
+**Summary:**
 
        "Sample mail:
        
@@ -20,17 +20,18 @@ Summary:
         Netflix Support Team
         © 2025 Netflix Inc. All rights reserved. "
 
-When analyzing an email, you should be aware of the following:
-   1. Email headers: we must examine the email address to see if it is a legitimate email or forgery in order to confirm the email's validity.
-  
-   2. Since this is an AI-generated email, the headers don't include any metadata that could be used to further examine the headers.
- 
-   3. Links: At verified now, there was a link.  This will probably take our credentials.
- 
-   4. Urgency: The subject and body lines in this instance demonstrate the urgency.  to confirm the account, failing which it will be suspended.
- 
-   5. Findings:
-      - First and foremost, the email communicates a sense of urgency.
-      - The email address is spoofed.
-      - There is a link leads to a phishing website that steals credentials.
-      - They've also added an ending to make it more legitimate.
+When analyzing an email, it's important to consider the following points:
+
+1. **Email Headers**: Examine the email address to determine if it is legitimate or potentially forged. This helps confirm the email's validity.
+   
+2. **Metadata**: In the case of AI-generated emails, the headers may lack any useful metadata, making it difficult to conduct further analysis.
+
+3. **Links**: Be cautious of links present in the email. For example, there was a link in the email from "verified now," which could potentially lead to a site that steals our credentials.
+
+4. **Urgency**: The subject line and body of the email convey a sense of urgency, indicating that action is required to confirm the account, or it will be suspended.
+
+5. **Findings**:
+    - The email creates a strong sense of urgency.
+    - The email address appears to be spoofed.
+    - There is a link that directs to a phishing website designed to steal credentials.
+    - The email includes a sign-off that aims to make it seem more legitimate.
