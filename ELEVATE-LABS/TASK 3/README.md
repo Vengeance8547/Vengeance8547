@@ -27,6 +27,6 @@
 
 **Findings:**
 - A local device scan revealed a minor vulnerability (no risk) that could potentially allow information to be leaked over the network through NetBIOS or SMB protocols.
-  ![Image Alt](https://github.com/Vengeance8547/Vengeance8547/blob/main/TASK%203/nessus.png)
+  ![Image Alt](https://github.com/Vengeance8547/Vengeance8547/blob/main/ELEVATE-LABS/TASK%203/nessus.png)
   
 - **Recommendation:** Disable NetBIOS settings as it employs a sophisticated TCP/IP configuration.
