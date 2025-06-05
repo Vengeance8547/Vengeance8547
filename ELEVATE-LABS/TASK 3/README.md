@@ -1,31 +1,32 @@
--- TASK 3 --
+**-- TASK 3 --**
 
-Objective: Using technologies such as Nessus to identify system vulnerabilities. 
+**Objective:** Use technologies like Nessus to identify system vulnerabilities.
 
-Recommendations: Installation of Nessus is required on Linux/Windows.
+**Recommendations:** Install Nessus on either Linux or Windows.
 
-Summary: 
-1. After downloading and installing Nessus. Go to the URL https://<user>:8834. Log in with the account you created.
+**Summary:**
 
-2. Go to the scans section on the top left side of the nessus website (New Scan). It will show you a pop-up. In the popup window, select the "basic network scan" option.
+1. After downloading and installing Nessus, navigate to the URL: https://<user>:8834. Log in with the account you created.
 
-3. After selecting options, provide the 
-    - Name 
-    - Description (if required)
-    - Target 
-    
-4. In discovery, you can choose -- scan all ports. 
-    - Otherwise select common port option.(which will give results faster)
+2. Go to the "Scans" section in the top left corner of the Nessus interface and select "New Scan." A pop-up window will appear. Choose the "Basic Network Scan" option from the pop-up.
 
-5. Then comes the assessment that we should provide. 
-    - For faster scanning, use the option to scan for known vulnerabilities. 
-    - Alternatively, pick all web vulnerabilities. 
+3. Within the pop-up, provide the following details:
+   - Name
+   - Description (if needed)
+   - Target
 
-5. Proceeded with everything. 
+4. In the discovery section, you can either select "Scan All Ports" or the "Common Ports" option, which will yield faster results.
 
-6. Start the scan; it will take some time.
+5. For the assessment, you can choose to:
+   - Scan for known vulnerabilities for quicker results.
+   - Alternatively, select all web vulnerabilities.
 
-7. Findings: 
-    - A local device scan revealed a minor vulnerability (no risk) that could allow information to be leaked over the network using NetBIOS or SMB protocols.
-   ![Image Alt](https://github.com/Vengeance8547/Vengeance8547/blob/main/TASK%203/nessus.png)
-    - Recommendation: Disable NetBios settings. It is using sophisticated TCP/IP settings.
+6. Review your settings and proceed.
+
+7. Start the scan; this process may take some time.
+
+**Findings:**
+- A local device scan revealed a minor vulnerability (no risk) that could potentially allow information to be leaked over the network through NetBIOS or SMB protocols.
+  ![Image Alt](https://github.com/Vengeance8547/Vengeance8547/blob/main/TASK%203/nessus.png)
+  
+- **Recommendation:** Disable NetBIOS settings as it employs a sophisticated TCP/IP configuration.
